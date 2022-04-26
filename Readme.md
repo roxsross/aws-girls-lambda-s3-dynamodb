@@ -37,8 +37,37 @@ WriteCapacityUnits: 1
 
 ### Crear Lambda
 
+- Ir a la Consola AWS Lambda y haga clic en crear función
+![Esta es una imagen](image/1_create_lambda.png)
+- Seleccionar Runtine Python 3.9 y Rol
+![Esta es una imagen](image/2_Information_lambda.png)
+- Vaya al editor de código y comience a escribir el código o puede copiarlo [Python-lambda](lambda_function.py).
+![Esta es una imagen](image/3_Copy_Code.png)
+
+### Establecer evento para el Bucket S3
+
+- En la configuracion de función Lambda y haga clic en agregar trigger
+![Esta es una imagen](image/4_trigger.png)
+
+- Seleccione el Bucket s3 que creo anteriormente
+![Esta es una imagen](image/5_s3_trigger.png)
+
+### Archivo CSV
+
+- Cree un archivo .csv con los datos a continuación
+[csv](demo.csv).
+
+- Ahora cargue este archivo en el Bucket S3 y procesará los datos y los enviará a DynamoDB.
 
 ## Informacion Complementaria
 
 Comenzando con AWS Boto3 [Medium](https://medium.com/@luiscelismx/comenzando-con-aws-boto3-876fd0d6686f#:~:text=Boto3%20consiste%20en%20un%20conjunto,los%20servicios%20web%20de%20Amazon.).
+
+⌨️ con ❤️ por [roxsross](https://github.com/roxsross) 😊
+
+No olvides revisar mi blog [roxsross](https://blog.295devops.com) 😊
+
+y mi linktree [roxsross](https://roxs.295devops.com) 😊
+
+"No se trata de cambiar el mundo, creo que creas un cambio pequeño, pero que te importe estás cambiando las cosas".
 
