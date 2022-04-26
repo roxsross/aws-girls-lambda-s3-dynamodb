@@ -1,4 +1,4 @@
-# Gestionando archivos con CSV desde AWS Bucket S3 e insertar en DynamoDB usando Lambda [Python]
+# Gestionando archivos CSV con AWS Bucket S3 e insertar en DynamoDB usando Lambda [Python]
 
 Seleccionaremos el archivo CSV "demo.csv" lo subimos a un bucket-s3 creado previamente y procesaremos el archivo y lo enviaremos a la tabla de DynamoDB.
 
